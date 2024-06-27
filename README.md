@@ -1,3 +1,6 @@
+KiwiWaves
+===========================================
+
 KiwiWaves is an experimental C++ (ISO C++11) class library for audio DSP. It is
 mainly inspired by [AuLib](http://github.com/AuLib/AuLib), and also draws
 significant influence from the structures of languages like [Csound](https://csound.com/)
@@ -14,7 +17,7 @@ This design creates a simple, yet very powerful and user-friendly way to design
 DSP programs.
 
 Build
-===========================================
+----------------------------------------------
 
 The library is built with CMake. External dependencies are not needed.
 
@@ -30,7 +33,7 @@ cmake --install . --config Debug
 ```
 
 Using
-=====================================
+----------------------------------------------
 
 The most basic class provided by KiwiWaves is the `UGen` class, from which
 almost all other classes inherit. The parameters of the DSP module are
@@ -42,7 +45,7 @@ If a parameter of a `UGen` is another `UGen` (for modulation purposes),
 make sure to process the modulating one first, followed by the main one.
  
 Extending
-============================
+----------------------------------------------
 	
 The library classes can be easily extended. The most straightforward way to do
 this is to create a subclass of UGen or FuncTab. For UGen, you can create a
@@ -54,7 +57,7 @@ Inheriting from UGen allows for easy integration with existing objects and
 provides access to the basic audio processing facilities available in the library.
  
 License
-=====================
+----------------------------------------------
 
 	Copyright (C) 2024 Albert Madrenys Planas
 
