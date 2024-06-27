@@ -1,17 +1,17 @@
-	KiwiWaves is an experimental C++ (ISO C++11) class library for audio DSP. It is
-	mainly inspired by [AuLib](http://github.com/AuLib/AuLib), and also draws
-	significant influence from the structures of languages like [Csound]
-	(https://csound.com/) and [SuperCollider] (https://supercollider.github.io/).
+KiwiWaves is an experimental C++ (ISO C++11) class library for audio DSP. It is
+mainly inspired by [AuLib](http://github.com/AuLib/AuLib), and also draws
+significant influence from the structures of languages like [Csound]
+(https://csound.com/) and [SuperCollider] (https://supercollider.github.io/).
 
-	KiwiWaves provides developers with simple, classic, and easy-to-use modules
-	for working with DSP audio. The foundation of the library includes function
-	tables, oscillators, filters, and envelopes. These modules, or UGens, can be
-	used to create more complex operations by chaining them together, as many of
-	the modules allow their parameters to be either fixed values or modulated by
-	other modules.
+KiwiWaves provides developers with simple, classic, and easy-to-use modules
+for working with DSP audio. The foundation of the library includes function
+tables, oscillators, filters, and envelopes. These modules, or UGens, can be
+used to create more complex operations by chaining them together, as many of
+the modules allow their parameters to be either fixed values or modulated by
+other modules.
 
-	This design creates a simple, yet very powerful and user-friendly way to design
-	DSP programs.
+This design creates a simple, yet very powerful and user-friendly way to design
+DSP programs.
 
 Build
 ===========================================
