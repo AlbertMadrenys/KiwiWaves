@@ -43,7 +43,13 @@ of the `UGen` can be called.
 
 If a parameter of a `UGen` is another `UGen` (for modulation purposes),
 make sure to process the modulating one first, followed by the main one.
- 
+
+Examples
+----------------------------------------------
+
+An example of how to use the library can be found here:
+https://github.com/AlbertMadrenys/KiwiFlanger
+
 Extending
 ----------------------------------------------
 	
